@@ -3,6 +3,7 @@
 .idea
 tcode-generator.iml
 tcode-generator-basic.iml
+generated
 
 ### Java template
 # Compiled class file
