@@ -1,7 +1,7 @@
 package com.tcode.maker.generator.file;
 
-import com.tcode.maker.model.DataModel;
 import freemarker.template.TemplateException;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -30,13 +30,5 @@ public class FileGenerator {
         String inputDynamicFilePath = projectPath + File.separator + "src/main/resources/templates/MainTemplate.java.ftl";
         String outputDynamicFilePath = outputPath + File.separator + "acm-template/src/com/tcode/acm/MainTemplate.java";
         DynamicFileGenerator.doGenerate(inputDynamicFilePath, outputDynamicFilePath, model);
-    }
-
-    public static void main(String[] args) throws TemplateException, IOException {
-        DataModel dataModel = new DataModel();
-        dataModel.setAuthor("tcode");
-        dataModel.setLoop(false);
-        dataModel.setOutputText("求和结果：");
-        doGenerate(dataModel);
     }
 }

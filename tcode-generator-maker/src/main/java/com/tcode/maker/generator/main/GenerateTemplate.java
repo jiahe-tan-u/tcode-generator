@@ -10,6 +10,7 @@ import com.tcode.maker.meta.Meta;
 import com.tcode.maker.meta.MetaManager;
 import freemarker.template.TemplateException;
 
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
@@ -22,9 +23,11 @@ import java.io.IOException;
 public abstract class GenerateTemplate {
 
     public void doGenerate() throws TemplateException, IOException, InterruptedException {
+        // 初始化元信息对象
         Meta meta = MetaManager.getMetaObject();
 
         // 0、输出根路径
+        //（projectPath: ....\tcode-generator-maker）
         String projectPath = System.getProperty("user.dir");
         String outputPath = projectPath + File.separator + "generated" + File.separator + meta.getName();
         if (!FileUtil.exist(outputPath)) {
@@ -55,6 +58,8 @@ public abstract class GenerateTemplate {
      * @return
      */
     protected String copySource(Meta meta, String outputPath) {
+        // sourceRootPath: .../tcode-generator-demo-projects/acm-template-pro
+        // sourceCopyDestPath: ...\tcode-generator-maker\generated\acm-template-pro-generator\.source
         String sourceRootPath = meta.getFileConfig().getSourceRootPath();
         String sourceCopyDestPath = outputPath + File.separator + ".source";
         FileUtil.copy(sourceRootPath, sourceCopyDestPath, false);
@@ -69,13 +74,15 @@ public abstract class GenerateTemplate {
      * @throws TemplateException
      */
     protected void generateCode(Meta meta, String outputPath) throws IOException, TemplateException {
-        // 读取 resources 目录
+        // 读取 resources 目录。 "classpath:"
         ClassPathResource classPathResource = new ClassPathResource("");
+        // ..../tcode-generator-maker/target/classes/
         String inputResourcePath = classPathResource.getAbsolutePath();
 
         // Java 包基础路径
         String outputBasePackage = meta.getBasePackage();
         String outputBasePackagePath = StrUtil.join("/", StrUtil.split(outputBasePackage, "."));
+        // ....\tcode-generator-maker\generated\acm-template-pro-generator\src/main/java/com/tcode
         String outputBaseJavaPackagePath = outputPath + File.separator + "src/main/java/" + outputBasePackagePath;
 
         String inputFilePath;
@@ -161,7 +168,7 @@ public abstract class GenerateTemplate {
     }
 
     /**
-     * 生成精简版程序
+     * 生成精简版程序,只保留 jar 包、脚本文件、原始模板文件
      * @param outputPath
      * @param sourceCopyDestPath
      * @param jarPath
