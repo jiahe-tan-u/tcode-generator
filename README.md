@@ -63,11 +63,11 @@
 
 主页（代码生成器搜索列表）：
 
-![image-20240902214451260](C:\Users\14378\AppData\Roaming\Typora\typora-user-images\image-20240902214451260.png)
+![image-20240902214451260](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/github2_picture%2Fimage-20240902214451260.png)
 
 代码生成器创建页（分步表单）：
 
-![image-20240902214557660](C:\Users\14378\AppData\Roaming\Typora\typora-user-images\image-20240902214557660.png)
+![image-20240902214557660](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/github2_picture%2Fimage-20240902214557660.png)
 
 代码生成器创建页（复杂嵌套动态表单）：
 
@@ -75,13 +75,13 @@
 
 在线上传和制作代码生成器：
 
-![image-20240902214928476](C:\Users\14378\AppData\Roaming\Typora\typora-user-images\image-20240902214928476.png)
+![image-20240902214928476](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/github2_picture%2Fimage-20240902214928476.png)
 
 代码生成器详情页：
 
-![image-20240902215051516](C:\Users\14378\AppData\Roaming\Typora\typora-user-images\image-20240902215051516.png)
+![image-20240902215051516](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/github2_picture%2Fimage-20240902215051516.png)
 
 在线使用代码生成器：
 
-![image-20240902215228608](C:\Users\14378\AppData\Roaming\Typora\typora-user-images\image-20240902215228608.png)
+![image-20240902215228608](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/github2_picture%2Fimage-20240902215228608.png)
 
