@@ -56,6 +56,10 @@
 - Nginx 反向代理
 
 
+## 业务流程
+
+![image-20240902214451260](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/github2_picture%2FSnipaste_2024-09-05_19-31-54.png)
+
 
 ## 项目展示
 
