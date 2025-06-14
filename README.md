@@ -10,7 +10,7 @@
 
 在线体验：[http://scq.tanjiahe.icu](http://scq.tanjiahe.icu/)
 
-### 技术选型
+## 技术选型
 
 
 
@@ -56,31 +56,35 @@
 - Nginx 反向代理
 
 
+## 业务流程
 
-#### 项目展示
+![image-20240902214451260](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/github2_picture%2FSnipaste_2024-09-05_19-31-54.png)
+
+
+## 项目展示
 
 
 
 主页（代码生成器搜索列表）：
 
-![image-20240902214451260](C:\Users\14378\AppData\Roaming\Typora\typora-user-images\image-20240902214451260.png)
+![image-20240902214451260](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/github2_picture%2Fimage-20240902214451260.png)
 
 代码生成器创建页（分步表单）：
 
-![image-20240902214557660](C:\Users\14378\AppData\Roaming\Typora\typora-user-images\image-20240902214557660.png)
+![image-20240902214557660](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/github2_picture%2Fimage-20240902214557660.png)
 
 代码生成器创建页（复杂嵌套动态表单）：
 
 [![img](https://camo.githubusercontent.com/4017aedc6ce25624ebc40b75bcc50a7d9ce0b4068f64182fa8c1ef3a6c2ec680/68747470733a2f2f7069632e797570692e6963752f312f696d616765253230283134292e706e67)](https://camo.githubusercontent.com/4017aedc6ce25624ebc40b75bcc50a7d9ce0b4068f64182fa8c1ef3a6c2ec680/68747470733a2f2f7069632e797570692e6963752f312f696d616765253230283134292e706e67)
 在线上传和制作代码生成器：
 
-![image-20240902214928476](C:\Users\14378\AppData\Roaming\Typora\typora-user-images\image-20240902214928476.png)
+![image-20240902214928476](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/github2_picture%2Fimage-20240902214928476.png)
 
 代码生成器详情页：
 
-![image-20240902215051516](C:\Users\14378\AppData\Roaming\Typora\typora-user-images\image-20240902215051516.png)
+![image-20240902215051516](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/github2_picture%2Fimage-20240902215051516.png)
 
 在线使用代码生成器：
 
-![image-20240902215228608](C:\Users\14378\AppData\Roaming\Typora\typora-user-images\image-20240902215228608.png)
+![image-20240902215228608](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/github2_picture%2Fimage-20240902215228608.png)
 
