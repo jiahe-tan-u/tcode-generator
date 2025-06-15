@@ -58,7 +58,14 @@
 
 ## 业务流程
 
+
 ![image-20240902214451260](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/github2_picture%2FSnipaste_2024-09-05_19-31-54.png)
+
+
+## 架构设计
+
+
+![image-20240902214451260](https://tcode-1318171279.cos.ap-guangzhou.myqcloud.com/generator_picture%2F1786358867286847489%2Fcodeshare%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 
 ## 项目展示
